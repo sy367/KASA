@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+import Headshot from '../../images/Lauren.jpg';
+import '../../styles/eboard.css';
+
+export default class Lauren extends Component {
+  render() {
+    return (
+      <div className="profile-container">
+        <div>
+          <img className="headshot" alt="Lauren" src={Headshot} />
+        </div>
+
+        <div>
+          <h1 className="eboard-name">Lauren Park '20</h1>
+          <p><strong>CO-PRESIDENT</strong></p>
+          <p>AAP: Fine Arts</p>
+          <p>Englewood Cliffs, NJ</p>
+        </div>
+      </div>
+    );
+  }
+}
