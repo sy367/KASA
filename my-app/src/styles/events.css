@@ -1,0 +1,22 @@
+#events-banner {
+  width: 100%;
+}
+
+#events-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+#center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Permanent Marker';
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+}
