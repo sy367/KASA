@@ -20,3 +20,45 @@
   font-weight: bold;
   font-style: italic;
 }
+
+.event-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.event-info-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Aleo";
+}
+
+.event-header{
+  font-size: 36px;
+  padding: 20px;
+}
+
+.event-image-container {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.event-image {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.event-description {
+  width: 85%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.event-description-container {
+  width: 50%;
+}
