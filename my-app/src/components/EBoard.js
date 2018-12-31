@@ -21,14 +21,13 @@ import Footer from './Footer.jsx';
 export default class EBoard extends Component {
   render() {
     return (
-      <div id="eboard-container">
-
+      <div>
       <div id="events-container">
         <img id="events-banner" alt="KASA x KSA" src={Banner} />
         <div id="center">E-Board</div>
       </div>
 
-
+      <div id="eboard-container">
       <div className="eboard-row">
           <Lauren />
           <SJ />
@@ -59,7 +58,9 @@ export default class EBoard extends Component {
         <Michael />
       </div>
 
-      <Footer />
+
+      </div>
+        <Footer />
       </div>
 
     );
