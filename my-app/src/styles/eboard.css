@@ -9,14 +9,14 @@ p {
 
 .eboard-name {
   font-size: 32px;
-  font-family: "Sriracha", cursive;
-  padding: 0px;
+  font-family: "Kameron";
+  font-weight: bold;
+  padding: 10px;
 }
 
 .headshot {
   width: 80%;
   border-radius: 250px;
-  margin-top: 50px;
   box-shadow: 0 0 10px gray;
 
 }
@@ -36,7 +36,7 @@ p {
 #events-container {
   position: relative;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
 #center {
@@ -50,6 +50,7 @@ p {
   font-size: 75px;
   font-weight: bold;
   font-style: italic;
+  text-shadow: 0 0 10px black;
 }
 
 #eboard-header {
@@ -72,16 +73,20 @@ p {
 
 }
 
+.profile-info {
+  font-family: "Aleo";
+}
+
 .eboard-row {
   display: flex;
   flex-direction: row;
-
   width: 80%;
   margin: 0 auto;
+  padding: 25px;
 }
 
 #eboard-container{
-  background-color: #F8F8F8;
+  padding-bottom: 50px;
 }
 
 #desc {

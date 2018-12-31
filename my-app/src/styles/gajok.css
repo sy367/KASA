@@ -10,6 +10,37 @@
 
 }
 
+#gajok-header{
+  text-align: left;
+  font-size: 50px;
+}
+
+#gajok-video {
+  width: 560px;
+  height: 315px;
+  margin: 10%;
+}
+
+#video-div {
+  width: 50%;
+}
+
+.definition-container {
+  line-height: 1;
+  text-align: left;
+  animation-fill-mode: forwards;
+  animation: fadeIn 3s;
+  padding: 10%;
+}
+
+#video-container {
+  font-family: "Noto Serif KR";
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
 @keyframes fadeAndScale {
     from {
         opacity: 0;
@@ -20,6 +51,15 @@
         opacity: 1;
         transform: scale(1, 1);
         transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
