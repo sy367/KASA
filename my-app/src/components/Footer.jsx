@@ -24,7 +24,7 @@ export default class Footer extends Component {
       </div>
 
       <div id="copyright">
-        © 2018 Seokjoo Yoon
+        © 2018 Seokjoo Yoon | Cornell KASA
       </div>
       </div>
     );
