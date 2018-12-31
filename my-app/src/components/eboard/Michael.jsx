@@ -12,9 +12,9 @@ export default class Michael extends Component {
 
         <div>
           <h1 className="eboard-name">Michael Jeong '19</h1>
-          <p><strong>SENIOR ADVISOR</strong></p>
-          <p>HumEc: HBHS</p>
-          <p>Seoul, Korea</p>
+          <p className="profile-info"><strong>SENIOR ADVISOR</strong></p>
+          <p className="profile-info">HumEc: HBHS</p>
+          <p className="profile-info">Seoul, Korea</p>
         </div>
       </div>
     );

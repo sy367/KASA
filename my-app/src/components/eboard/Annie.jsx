@@ -12,9 +12,9 @@ export default class Annie extends Component {
 
         <div>
           <h1 className="eboard-name">Annie Oh '20</h1>
-          <p><strong>PUBLICITY CHAIR</strong></p>
-          <p>CALS: Nutritional Science</p>
-          <p>Honolulu, HI</p>
+          <p className="profile-info"><strong>PUBLICITY CHAIR</strong></p>
+          <p className="profile-info">CALS: Nutritional Science</p>
+          <p className="profile-info">Honolulu, HI</p>
         </div>
       </div>
     );

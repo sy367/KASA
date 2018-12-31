@@ -12,9 +12,9 @@ export default class Youri extends Component {
 
         <div>
           <h1 className="eboard-name">Youri Jung '21</h1>
-          <p><strong>SECRETARY</strong></p>
-          <p>HumEc: HBHS</p>
-          <p>Philadelphia, PA</p>
+          <p className="profile-info"><strong>SECRETARY</strong></p>
+          <p className="profile-info">HumEc: HBHS</p>
+          <p className="profile-info">Philadelphia, PA</p>
         </div>
       </div>
     );

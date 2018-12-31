@@ -12,9 +12,9 @@ export default class Lauren extends Component {
 
         <div>
           <h1 className="eboard-name">Lauren Park '20</h1>
-          <p><strong>CO-PRESIDENT</strong></p>
-          <p>AAP: Fine Arts</p>
-          <p>Englewood Cliffs, NJ</p>
+          <p className="profile-info"><strong>CO-PRESIDENT</strong></p>
+          <p className="profile-info">AAP: Fine Arts</p>
+          <p className="profile-info">Englewood Cliffs, NJ</p>
         </div>
       </div>
     );

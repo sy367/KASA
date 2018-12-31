@@ -12,9 +12,9 @@ export default class Andy extends Component {
 
         <div>
           <h1 className="eboard-name">Andy Lee '19</h1>
-          <p><strong>SENIOR ADVISOR</strong></p>
-          <p>A&S: Biology</p>
-          <p>Randolph, NJ</p>
+          <p className="profile-info"><strong>SENIOR ADVISOR</strong></p>
+          <p className="profile-info">A&S: Biology</p>
+          <p className="profile-info">Randolph, NJ</p>
         </div>
       </div>
     );

@@ -12,9 +12,9 @@ export default class Jewon extends Component {
 
         <div>
           <h1 className="eboard-name">Jewon Sohn '21</h1>
-          <p><strong>TREASURER</strong></p>
-          <p>A&S: Information Science</p>
-          <p>Seattle, WA</p>
+          <p className="profile-info"><strong>TREASURER</strong></p>
+          <p className="profile-info">A&S: Information Science</p>
+          <p className="profile-info">Seattle, WA</p>
         </div>
       </div>
     );

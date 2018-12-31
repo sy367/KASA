@@ -12,9 +12,9 @@ export default class Eugene extends Component {
 
         <div>
           <h1 className="eboard-name">Eugene Park '19</h1>
-          <p><strong>PUBLICITY CHAIR</strong></p>
-          <p>A&S: Government</p>
-          <p>Seoul, Korea</p>
+          <p className="profile-info"><strong>PUBLICITY CHAIR</strong></p>
+          <p className="profile-info">A&S: Government</p>
+          <p className="profile-info">Seoul, Korea</p>
         </div>
       </div>
     );

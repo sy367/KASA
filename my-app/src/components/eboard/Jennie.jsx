@@ -12,9 +12,9 @@ export default class Jennie extends Component {
 
         <div>
           <h1 className="eboard-name">Jennie Kim '19</h1>
-          <p><strong>SENIOR ADVISOR</strong></p>
-          <p>HumEc: HBHS</p>
-          <p>McLean, VA</p>
+          <p className="profile-info"><strong>SENIOR ADVISOR</strong></p>
+          <p className="profile-info">HumEc: HBHS</p>
+          <p className="profile-info">McLean, VA</p>
         </div>
       </div>
     );

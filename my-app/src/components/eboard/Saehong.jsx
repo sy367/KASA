@@ -12,9 +12,9 @@ export default class Saehong extends Component {
 
         <div>
           <h1 className="eboard-name">Saehong Kim '21</h1>
-          <p><strong>VISUAL ARTS COORDINATOR</strong></p>
-          <p>Industrial Labor Relations</p>
-          <p>New Delhi, India</p>
+          <p className="profile-info"><strong>VISUAL ARTS COORDINATOR</strong></p>
+          <p className="profile-info">Industrial Labor Relations</p>
+          <p className="profile-info">New Delhi, India</p>
         </div>
       </div>
     );

@@ -12,9 +12,9 @@ export default class Derek extends Component {
 
         <div>
           <h1 className="eboard-name">Derek Lee '21</h1>
-          <p><strong>PROGRAMMING CHAIR</strong></p>
-          <p>HumEc: HBHS</p>
-          <p>Long Island, NY</p>
+          <p className="profile-info"><strong>PROGRAMMING CHAIR</strong></p>
+          <p className="profile-info">HumEc: HBHS</p>
+          <p className="profile-info">Long Island, NY</p>
         </div>
       </div>
     );

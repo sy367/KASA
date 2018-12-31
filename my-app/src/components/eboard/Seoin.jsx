@@ -12,9 +12,9 @@ export default class Seoin extends Component {
 
         <div>
           <h1 className="eboard-name">Seoin Park '20</h1>
-          <p><strong>PROGRAMMING CHAIR</strong></p>
-          <p>Hotel Administration</p>
-          <p>Seoul, Korea</p>
+          <p className="profile-info"><strong>PROGRAMMING CHAIR</strong></p>
+          <p className="profile-info">Hotel Administration</p>
+          <p className="profile-info">Seoul, Korea</p>
         </div>
       </div>
     );

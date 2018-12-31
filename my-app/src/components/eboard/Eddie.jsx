@@ -12,9 +12,9 @@ export default class Eddie extends Component {
 
         <div>
           <h1 className="eboard-name">Edward Baik '21</h1>
-          <p><strong>PROGRAMMING CHAIR</strong></p>
-          <p>CoE: Mechanical Engineering</p>
-          <p>Guam</p>
+          <p className="profile-info"><strong>PROGRAMMING CHAIR</strong></p>
+          <p className="profile-info">CoE: Mechanical Engineering</p>
+          <p className="profile-info">Guam</p>
         </div>
       </div>
     );

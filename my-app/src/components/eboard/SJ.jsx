@@ -12,9 +12,9 @@ export default class SJ extends Component {
 
         <div>
           <h1 className="eboard-name">SJ Yoon '20</h1>
-          <p><strong>CO-PRESIDENT</strong></p>
-          <p>CALS: Information Science</p>
-          <p>Bayside, NY</p>
+          <p className="profile-info"><strong>CO-PRESIDENT</strong></p>
+          <p className="profile-info">CALS: Information Science</p>
+          <p className="profile-info">Bayside, NY</p>
         </div>
 
       </div>

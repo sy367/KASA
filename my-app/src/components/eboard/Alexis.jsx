@@ -12,9 +12,9 @@ export default class Alexis extends Component {
 
         <div>
           <h1 className="eboard-name">Alexis Kim '21</h1>
-          <p><strong>VICE PRESIDENT</strong></p>
-          <p>A&S: Biology and Society</p>
-          <p>Aliso Viejo, CA</p>
+          <p className="profile-info"><strong>VICE PRESIDENT</strong></p>
+          <p className="profile-info">A&S: Biology and Society</p>
+          <p className="profile-info">Aliso Viejo, CA</p>
         </div>
       </div>
     );
