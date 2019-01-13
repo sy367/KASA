@@ -43,7 +43,6 @@
 .event-image-container {
   width: 50%;
   margin: 0 auto;
-
 }
 
 .event-image {
@@ -51,6 +50,7 @@
   margin: 0 auto;
   text-align: center;
   display: block;
+  box-shadow: 0 0 20px gray;
 }
 
 .event-description {

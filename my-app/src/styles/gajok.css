@@ -16,21 +16,27 @@
 }
 
 #gajok-video {
-  width: 560px;
-  height: 315px;
-  margin: 10%;
+  width: 476px;
+  height: 268px;
+  box-shadow: 0 0 20px gray;
 }
 
 #video-div {
-  width: 50%;
+  width: 40%;
+  padding: 5%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .definition-container {
   line-height: 1;
   text-align: left;
+  display: flex;
+  align-items: center;
   animation-fill-mode: forwards;
   animation: fadeIn 3s;
-  padding: 10%;
+  width: 40%;
+  padding: 5%;
 }
 
 #video-container {

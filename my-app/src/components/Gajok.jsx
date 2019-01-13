@@ -21,9 +21,11 @@ export default class Gajok extends Component {
                   allowfullscreen>
           </iframe>
 
-          </div>
+        </div>
 
       <div class="definition-container">
+
+        <div id="definition">
 
         <h1 id="gajok-header">가족</h1>
         <p>[ga&#8226;jok]</p>
@@ -31,12 +33,21 @@ export default class Gajok extends Component {
         <p>A family that is always there for you.</p>
         <p>Through the good times, and the bad.</p>
         <p>Your gajok will always love and support you.</p>
-
+        </div>
         </div>
 
       </div>
 
         <h1 id="welcome">This Year's Gajoks</h1>
+
+        <div>
+          <div class="gajok-row">
+
+          </div>
+
+          <div class="gajok-row">
+          </div>
+        </div>
 
         <Footer />
       </div>
