@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/events.css';
 import EventImage from '../../images/pepero.jpg';
 
-export default class Initiation extends Component {
+export default class Pepero extends Component {
   render () {
     return (
       <div className="event-container">

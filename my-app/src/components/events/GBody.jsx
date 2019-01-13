@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/events.css';
 import EventImage from '../../images/gbody.jpg';
 
-export default class Initiation extends Component {
+export default class GBody extends Component {
   render () {
     return (
       <div className="event-container">
