@@ -1,0 +1,36 @@
+.banner-image {
+  width: 100%;
+}
+
+.banner-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.banner-header {
+  width: 100%;
+  position: absolute;
+  text-shadow: 0 0 10px black;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Permanent Marker';
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+  animation-duration: 1.5s;
+  animation-name: fade;
+  animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

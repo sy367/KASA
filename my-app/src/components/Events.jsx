@@ -10,15 +10,16 @@ import League from './events/League.jsx';
 import KoreaNight from './events/KoreaNight.jsx';
 import Formal from './events/Formal.jsx';
 import Footer from './Footer.jsx';
+import '../styles/banner.css';
 import '../styles/events.css';
 
 export default class Events extends Component {
   render() {
     return (
       <div>
-      <div id="events-container">
-        <img id="events-banner" alt="KASA x KSA" src={Banner} />
-        <div id="center">KASA Events</div>
+      <div className="banner-container">
+        <img className="banner-image" alt="KASA x KSA" src={Banner} />
+        <div className="banner-header">KASA Events</div>
 
 
       </div>

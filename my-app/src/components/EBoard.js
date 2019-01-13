@@ -15,6 +15,7 @@ import Andy from './eboard/Andy.jsx';
 import Jennie from './eboard/Jennie.jsx';
 import Michael from './eboard/Michael.jsx';
 import '../styles/eboard.css';
+import '../styles/banner.css';
 import Banner from '../images/eboard.jpg';
 import Footer from './Footer.jsx';
 
@@ -22,9 +23,9 @@ export default class EBoard extends Component {
   render() {
     return (
       <div>
-      <div id="events-container">
-        <img id="events-banner" alt="KASA x KSA" src={Banner} />
-        <div id="center">E-Board</div>
+      <div className="banner-container">
+        <img className="banner-image" alt="KASA x KSA" src={Banner} />
+        <div className="banner-header">E-Board</div>
       </div>
 
       <div id="eboard-container">

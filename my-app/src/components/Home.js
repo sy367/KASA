@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Footer from './Footer.jsx';
 import Banner from '../images/koreanight.jpg';
+import '../styles/banner.css';
 import '../styles/home.css';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-      <div id="container">
-        <img id="banner" alt="KASA x KSA" src={Banner} />
-        <div id="center">
-          <p>Cornell KASA</p>
+      <div className="banner-container">
+        <img className="banner-image" alt="KASA x KSA" src={Banner} />
+        <div className="banner-header">
+          Cornell KASA
         </div>
       </div>
 
