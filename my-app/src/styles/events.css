@@ -7,6 +7,7 @@
 .event-info-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: "Aleo";
@@ -14,7 +15,7 @@
 
 .event-header{
   font-size: 36px;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .event-image-container {
