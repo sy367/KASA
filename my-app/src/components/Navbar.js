@@ -26,7 +26,7 @@ export default class Navbar extends Component {
         </div>
 
         <div className="nav-item">
-          <Link to="/alumni">ALUMNI</Link>
+          <Link to="/gallery">GALLERY</Link>
         </div>
 
         <div className="nav-item">
