@@ -7,7 +7,7 @@ import EBoard from './components/EBoard.js';
 import Gajok from './components/Gajok.jsx';
 import FAQ from './components/FAQs.jsx';
 import Events from './components/Events.jsx';
-import Alumni from './components/Alumni.jsx';
+import Gallery from './components/Gallery.js';
 import Contact from './components/Contact.jsx';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path="/gajok" component={Gajok} />
             <Route exact path="/events" component={Events} />
             <Route exact path="/faqs" component={FAQ} />
-            <Route exact path="/alumni" component={Alumni} />
+            <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/contact" component={Contact} />
           </div>
         </ScrollToTop>
