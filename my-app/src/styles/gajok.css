@@ -29,7 +29,7 @@
 }
 
 .definition-container {
-  line-height: 1;
+  line-height: 0.8;
   text-align: left;
   display: flex;
   align-items: center;
@@ -47,6 +47,30 @@
   flex-direction: row;
 }
 
+#value-propositions {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.value-prop-card {
+  width: 33.33%;
+  margin: auto;
+}
+
+#gajok-image {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+
+#gajok-row {
+  width: 100%;
+  margin: 0 auto;
+}
 @keyframes fadeAndScale {
     from {
         opacity: 0;

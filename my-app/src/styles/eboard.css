@@ -37,6 +37,7 @@
 
 .profile-info {
   font-family: "Aleo";
+  line-height: 0.5;
 }
 
 .eboard-row {
@@ -47,7 +48,7 @@
   padding: 25px;
 }
 
-#eboard-container{
+#eboard-container {
   padding-bottom: 50px;
 }
 
