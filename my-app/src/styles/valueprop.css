@@ -1,0 +1,45 @@
+.value-prop-container {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  background-color: white;
+}
+
+.prop-image-container{
+  height: 200px;
+  position: relative;
+}
+
+.prop-image {
+  height: 200px;
+  width: 267px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.prop-header {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 0 0 20px black;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Aleo';
+
+}
+
+.value-prop {
+  background-color: inherit;
+  font-family: 'Roboto';
+  margin: 20px;
+  width: 227px;
+  height: 150px;
+}
