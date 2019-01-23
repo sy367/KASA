@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import Study from './Study.js';
+import Eat from './Eat.js';
+import Chill from './Chill.js';
 import Footer from './Footer.jsx';
 import '../styles/gajok.css';
+import Gajoks from '../images/gajoks.png';
 
 export default class Gajok extends Component {
   render() {
@@ -38,11 +42,25 @@ export default class Gajok extends Component {
 
       </div>
 
+      <div id="value-propositions">
+        <div className="value-prop-card">
+          <Eat />
+        </div>
+
+        <div className="value-prop-card">
+          <Study />
+        </div>
+
+        <div className="value-prop-card">
+          <Chill />
+        </div>
+        </div>
+
         <h1 id="welcome">This Year's Gajoks</h1>
 
         <div>
           <div class="gajok-row">
-
+            <img id="gajok-image" alt="2018 Gajoks" src={Gajoks}/>
           </div>
 
           <div class="gajok-row">
